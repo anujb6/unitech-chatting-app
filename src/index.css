@@ -1,0 +1,120 @@
+/* Global */
+@import url(https://fonts.googleapis.com/css?family=Teko:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Asap:regular,500,600,700,italic,500italic,600italic,700italic);
+
+/* Chats Page */
+
+.chats-page {
+  background-color: #111;
+  font-family:Asap;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-color: #002766;
+}
+
+.logo-tab {
+  font-family:Asap;
+  position: absolute;
+  left: 22px;
+  top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.logout-tab {
+  font-family:Asap;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#login-page {
+  font-family: teko;
+  background-image: linear-gradient(#40a9ff, #096dd9);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#login-card {
+  position: relative;
+  top: calc(30vh - 144px);
+  left: calc(50vw - 210px);
+  padding-top: 56px;
+  padding-bottom: 66px;
+  width: 420px;
+  text-align: center;
+  background-color: white;
+  border-radius: 22px;
+  box-shadow: 10px 10px 5px rgb(165, 159, 159);
+  font-size: 1.2vw;
+}
+#login-card:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 5px 5px 2px rgb(165, 159, 159);
+}
+.login-button:hover{
+  transform: scale(1.05);
+}
+.facebook {
+  background-color: #1f2125;
+  width:50%;
+}
+
+.google {
+  background-color: rgb(211, 34, 34);
+  color: white;
+  width:46%;
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
+.login-head{
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+  font-family:teko;
+  text-shadow: 5px 5px 5px rgb(179, 172, 172);
+}
